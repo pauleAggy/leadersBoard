@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashLogoMarginTop">20sp</dimen>
+    <dimen name="splashLogoMarginBottom">50sp</dimen>
+    <dimen name="tab_layout_indicator_height">5sp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="authors_size">18sp</dimen>
+    <dimen name="title_bar_left_padding">15sp</dimen>
+    <dimen name="height_google_image_header">90sp</dimen>
+    <dimen name="height_google_image_header_padding_left">70sp</dimen>
+    <dimen name="submission_title_size">24sp</dimen>
+    <dimen name="submission_inputs_height">60sp</dimen>
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base application theme. for all activities -->
+    <style name="AppTheme.LeaderTheme" >
+        <!-- Customize your theme colors here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base application theme. for the splash screen-->
+    <style name="AppTheme.LeaderSplashScreenTheme" >
+        <!-- Customize your theme Title and Action Bar here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Customize your theme colors here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base application style for text titles (learners names). -->
+    <style name="textTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Base application style for Activity title bar text (learners names). -->
+    <style name="textTitle.appTitle" >
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:titleMargin">@dimen/title_bar_left_padding</item>
+    </style>
+
+
+    <!-- Base application style for text on submission button form (submission form). -->
+    <style name="textTitleSubmission" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textSize">@dimen/submission_title_size</item>
+    </style>
+
+
+
+</resources>

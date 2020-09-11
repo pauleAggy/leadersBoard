@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LeaderBoard</string>
+    <string name="splash_image_desc">LeaderBoard loading ...</string>
+    <string name="title_tab_learning_leaders">Learning Leaders</string>
+    <string name="title_tab_iq_leaders">Skills IQ Leaders</string>
+    <string name="error_data_message">Error Loading data from the Google Books API</string>
+    <string name="submission_form_title">Project Submission</string>
+    <string name="placeholder_first_name_input"> First Name</string>
+    <string name="placeholder_last_name_input"> Last Name</string>
+    <string name="placeholder_email_address_input"> Email Address</string>
+    <string name="placeholder_github_link"> Project on GITHUB (link)</string>
+    <string name="submission_button_label">Submit</string>
+</resources>

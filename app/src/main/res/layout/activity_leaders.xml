@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".LeadersActivity">
+
+    <TextView
+        android:id="@+id/app_global_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="695dp"
+        android:gravity="center"
+        android:paddingLeft="60sp"
+        android:text="@string/app_name"
+        android:textAppearance="@style/textTitle.appTitle"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/button_call_submission_activity"
+        android:layout_width="135sp"
+        android:layout_height="25sp"
+        android:layout_marginBottom="683dp"
+        android:background="@drawable/button_to_call_submission_form"
+        android:text="@string/submission_button_label"
+        android:textAllCaps="false"
+        android:textAppearance="@style/textTitle"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:textColorLink="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/app_global_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_leaders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="683dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_call_submission_activity"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabIndicatorHeight="@dimen/tab_layout_indicator_height"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/darker_gray">
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tab_leaders" />
+</androidx.constraintlayout.widget.ConstraintLayout>
